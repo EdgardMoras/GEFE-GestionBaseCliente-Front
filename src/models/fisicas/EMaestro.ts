@@ -1,0 +1,72 @@
+import { EBaseEntidad } from "../Base/EBaseEntidad";
+import ETipoDirectiva from "./ETipoDirectiva";
+import EGestionDirectiva from "./EGestionDirectiva";
+import EDivision from "./EDivision";
+import EArea from "./EEmpresa_2";
+import EGrupo from "./EGrupo";
+import EPeriodoFrecuencia from "./EPeriodoFrecuencia";
+import Usuario from "../Base/Usuario";
+import ETipoNorma from "./ETipoNorma";
+import EAsistente from "./EAsistente";
+
+export default class EMaestro {
+  public ListaAreas: EArea[];
+  public ListaAsistentes: EAsistente[];
+  public ListaDestinatario: EBaseEntidad[];
+  public ListaDivisiones: EDivision[];
+  public ListaEmpresa: EBaseEntidad[];
+  public ListaEntidad: EBaseEntidad[];
+  public ListaEstadoSolicitudReporte: string[];
+  public ListaEstadoReporte: string[];
+  public ListaEstadoExpedienteReporte: string[];
+  public ListaFrecuencia: string[];
+  public ListaGestionDirectivas: EGestionDirectiva[];
+  public ListaGrupos: EGrupo[];
+  public ListaMeses: string[];
+  public ListaPuestos: EDivision[];
+  public ListaTipoEnvio: EBaseEntidad[];
+  public ListaTipoReporte: string[];
+  public ListaTipoSolicitud: string[];
+  public ListaTipoDirectiva: ETipoDirectiva[];
+  public ListaTipoNormas: ETipoNorma[];
+  public ListaAlcance: EBaseEntidad[];
+  public ListaEstadoIncidentes: string[];
+  public ListaTipoDia: string[];
+  public ListaTipoPeriodo: string[];
+  public ListaDias: string[];
+  public ListaSemanas: string[];
+  public ListaPeriodosFrecuencia: EPeriodoFrecuencia[];
+  public UsuarioActual: Usuario | null;
+  public ListaEvaluacion: EBaseEntidad[];
+
+  constructor() {
+    this.ListaAreas = [];
+    this.ListaAsistentes = [];
+    this.ListaDestinatario = [];
+    this.ListaDivisiones = [];
+    this.ListaEntidad = [];
+    this.ListaEmpresa = [];
+    this.ListaEstadoSolicitudReporte = [];
+    this.ListaEstadoReporte = [];
+    this.ListaEstadoExpedienteReporte = [];
+    this.ListaFrecuencia = [];
+    this.ListaGestionDirectivas = [];
+    this.ListaGrupos = [];
+    this.ListaMeses = [];
+    this.ListaPuestos = [];
+    this.ListaTipoDirectiva = [];
+    this.ListaTipoEnvio = [];
+    this.ListaTipoNormas = [];
+    this.ListaTipoReporte = [];
+    this.ListaTipoSolicitud = [];
+    this.ListaAlcance = [];
+    this.ListaEstadoIncidentes = [];
+    this.ListaTipoDia = [];
+    this.ListaTipoPeriodo = [];
+    this.ListaDias = [];
+    this.ListaSemanas = [];
+    this.ListaPeriodosFrecuencia = [];
+    this.UsuarioActual = null;
+    this.ListaEvaluacion = [];
+  }
+}

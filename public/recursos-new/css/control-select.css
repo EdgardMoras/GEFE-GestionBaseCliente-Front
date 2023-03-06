@@ -1,0 +1,152 @@
+.control-select-contenedor{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.1875em;
+    align-items: center;
+}
+
+.control-select-contenedor .icono-selector{
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 24px;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    user-select: none;
+    flex-shrink: 0;
+
+    top: calc(50% - 12px);
+    right: 0;
+    color: rgba(0, 0, 0, 0.54);
+    position: absolute;
+    pointer-events: none;
+}   
+
+.control-select-contenedor .texto-elementos-seleccionados{
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    cursor: pointer;
+    min-width: 16px;
+    user-select: none;
+    border-radius: 0;
+    
+    font: inherit;
+    font-size: 13px;
+    color: currentColor;
+    border: 0;
+    margin: 0;
+    display: block;
+    box-sizing: content-box;
+    background: none;
+    -webkit-tap-highlight-color: transparent;
+
+    height: 21px;
+    padding: 11px 12px 1px 12px;
+}
+
+.control-select-contenedor .contenedor-opcionesfiltro{    
+    top: 34px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1300;
+    position: absolute;
+
+    transform: scale(1, 1) translateZ(0px);
+    min-width: 211px;
+    max-height: 224px;
+    width: auto;
+    transition: opacity 289ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 192ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    
+    transform-origin: 0px 123px 0px;
+}
+
+.control-select-contenedor .contenedor-opcionesfiltro > div{
+    background: white;
+    border-radius: 4px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.control-select-contenedor ul.contenedor-elementos-filtrados{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+    max-height: 200px;
+}
+
+.control-select-contenedor ul li{
+    text-decoration: none;
+    padding: 8px 22px;
+
+    color: rgba(0, 0, 0, 0.87);
+    width: auto;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+
+.control-select-contenedor ul li.seleccionado{
+    background-color: rgba(0, 0, 0, 0.14);
+    font-weight: 500;
+}
+.control-select-contenedor ul li:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.control-select-contenedor .input-buscador{
+    width: -webkit-fill-available;
+    margin: 10px 10px 5px 10px;
+    display: inline-block;
+}
+
+.control-select-contenedor .contenedor-opcionesfiltro > div {
+    background: white;
+    border-radius: 4px !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12);
+    padding: 20px 15px !important;
+}
+
+.control-select-contenedor .contenedor-opcionesfiltro .btn{
+	width: 100%;
+}
+
+.control-select-contenedor .input-buscador {
+    width: -webkit-fill-available;
+    margin: 15px 0px 15px 0px !important;
+    display: inline-block !important;
+}
+
+.control-select-contenedor ul.contenedor-elementos-filtrados {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    margin-bottom: 19px !important;
+    max-height: 220px !important;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px !important;
+}
+
+.control-select-contenedor ul li.seleccionado {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    font-weight: 500;
+}
+
+.control-select-contenedor .contenedor-opcionesfiltro .btn{
+	width: 100%;	
+}
+

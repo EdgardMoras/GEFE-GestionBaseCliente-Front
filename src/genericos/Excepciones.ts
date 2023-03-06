@@ -1,0 +1,20 @@
+export enum Excepciones {
+  COD_EXP00 = "¡Algo ha salido mal!, Por favor contacte con HelpDesk (COD_EXP00):",
+  COD_EXP01 = "Surgió una excepción al obtener los elementos de las listas maestras (COD_EXP01):",
+  COD_EXP02 = "Surgió una excepción al obtener los elementos de la lista Proyectos (COD_EXP02):",
+  COD_EXP03 = "Surgió una excepción al guardar el elemento en la lista Proyectos (COD_EXP03):",
+  COD_EXP04 = "Surgió una excepción al obtener el elemento en la lista Correlativos (COD_EXP04):",
+  COD_EXP05 = "Surgió una excepción al guardar el elemento en la lista EnvioCorreos (COD_EXP05):",
+  COD_EXP06 = "Surgió una excepción al actualizar el elemento en la lista Proyectos (COD_EXP06):",
+  COD_EXP07 = "Surgió una excepción al crear carpetas en la biblioteca ArchivosProyecto (COD_EXP07):",
+  COD_EXP08 = "Surgió una excepción al guardar los elementos en la biblioteca ArchivosProyecto (COD_EXP08):",
+  COD_EXP09 = "Surgió una excepción al exportar los elementos de la lista Proyectos (COD_EXP09):",
+  COD_EXP10 = "Surgió una excepción al guardar el elemento en la lista RegistroActividadesProyectos (COD_EXP10):",
+  COD_EXP11 = "Surgió una excepción al obtener los elementos de la lista RegistroActividadesProyectos (COD_EXP11):",
+  COD_EXP12 = "Surgió una excepción al actualizar los elementos de la lista SolicitudesComentarioProyecto (COD_EXP12):",
+  COD_EXP13 = "Surgió una excepción al guardar los elementos de la lista ComentariosProyecto (COD_EXP13):",
+  COD_EXP14 = "Surgió una excepción al actualizar el elemento de la lista ComentariosProyecto (COD_EXP14):",
+  COD_EXP15 = "Surgió una excepción al eliminar el elemento de la lista ComentariosProyecto (COD_EXP15):",
+  COD_EXP16 = "Surgió una excepción al obtener el elemento de la lista Grupos (COD_EXP16):",
+  COD_EXP17 = "Surgió una excepción al obtener los adjuntos de los comentarios del usuario (COD_EXP17):"
+}
